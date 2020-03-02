@@ -6,7 +6,8 @@ The game supports local co-op multiplayer - a first for Mr. Driller-like games.
 (There is a 'Battle Mode' in Mr. Driller Drill Land, in which 2 - 4 players can play on one special map, seeing who can find a 'gold coin' first, it's not the same.)
 
 ## Controls
-Left joycon controlls player 1, right controls player 1.
+Left joycon controlls player 1, right controls player 2.
+Hold joycons vertically.
 L/R = OK, +/- = START.
 ANALOG = move, ZR/ZL = swap camera
 
