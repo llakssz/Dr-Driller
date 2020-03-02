@@ -1,0 +1,9 @@
+build/
+Extra/
+*.nso
+*.nro
+*.nsp
+*.elf
+*.nacp
+.vscode/
+.vs/
