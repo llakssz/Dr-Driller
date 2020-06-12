@@ -25,4 +25,4 @@ A large refactor was done, upgrade to SDL 2, more Mr. Driller features were adde
 Namco has not created *real Mr. Driller game for more than 10 years, so Dr. Driller was started to fill the gap.
 *real Mr. Driller game - something that is not a web-based slot machine (search online!), mutilated mobile version (Mr. Driller for Kakao), or some officially licensed web version that has different mechanics (can't find the link now)
 
-There is a late 2009 trademark for 'Mr. Driller Encore', supposedly a port of Mr. Driller Drill Land to Switch, better late than never!
+There is a late 2019 trademark for 'Mr. Driller Encore', supposedly a port of Mr. Driller Drill Land to Switch, better late than never!
