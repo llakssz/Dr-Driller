@@ -35,6 +35,8 @@ class Block {
 
   bool unsetlock;
 
+  bool just_landed;
+
   int destroycount;  // for X block
 
   int shape;  // for soft blocks

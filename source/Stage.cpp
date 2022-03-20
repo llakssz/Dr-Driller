@@ -996,7 +996,8 @@ void Stage::erase_check_recursive(int x, int y, int type, int *answer,
   if (p->state == Block::blockState::BLOCKSTATE_FALLING) return;
   (*number)++;
   //	if(p->state==BLOCKSTATE_EXTINGUISHED||p->state==BLOCKSTATE_EXTINGUISHING)(*answer)=1;
-  if (p->state == Block::blockState::BLOCKSTATE_FALLFINISHED) (*answer) = 1;
+  if (p->just_landed) (*answer) = 1;
+  p->just_landed = false;
 
   if (x > 0) erase_check_recursive(x - 1, y, type, answer, number);
   if (x < GAME_STAGE_WIDTH - 1)
@@ -1507,6 +1508,8 @@ void Stage::unsetprefall(int x, int y, int type) {
   if (p->state == Block::blockState::BLOCKSTATE_EXTINGUISHED ||
       p->state == Block::blockState::BLOCKSTATE_EXTINGUISHING)
     return;
+  if (p->state == Block::blockState::BLOCKSTATE_FALLFINISHED)
+    p->just_landed = true;
   p->state = Block::blockState::BLOCKSTATE_NONE;
   p->lefttime = PREFALLTIME;
   p->unsetlock = true;
