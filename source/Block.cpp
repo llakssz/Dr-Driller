@@ -8,6 +8,7 @@ Block::Block() {
   done = false;
   done_sub = false;
   unsetlock = false;
+  just_landed = false;
 
   destroycount = 0;
 
